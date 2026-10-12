@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Kaggle large dataset files (Do NOT commit raw competition datasets)
+data/raw/
+*.csv
+!data/test_batch_sample.csv
+!models/segment_insights.csv
+!reports/model_comparison_metrics.csv
+*.zip
+*.parquet
+*.duckdb
+
+# Heavy model artifacts / checkpoints (save lightweight configs/metadata)
+*.joblib
+!models/shap_explainer_sample.joblib
+
+# Environment variables & local secrets
+.env
+.env.local
+
+# IDEs & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit local state
+.streamlit/

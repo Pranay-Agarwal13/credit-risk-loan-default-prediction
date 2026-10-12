@@ -1,0 +1,6 @@
+{
+  "name": "Credit Risk & Loan Default Prediction System",
+  "description": "Production-grade credit underwriting and default prediction system with DuckDB SQL analytics, leakage-safe ML pipeline, cost-sensitive thresholding, TreeSHAP interpretability, and Streamlit dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

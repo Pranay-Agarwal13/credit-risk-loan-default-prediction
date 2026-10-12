@@ -1,0 +1,90 @@
+{
+  "raw_features": [
+    "AMT_INCOME_TOTAL",
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "AMT_GOODS_PRICE",
+    "DAYS_BIRTH",
+    "DAYS_EMPLOYED",
+    "CNT_FAM_MEMBERS",
+    "EXT_SOURCE_1",
+    "EXT_SOURCE_2",
+    "EXT_SOURCE_3",
+    "NAME_CONTRACT_TYPE",
+    "CODE_GENDER",
+    "FLAG_OWN_CAR",
+    "FLAG_OWN_REALTY",
+    "NAME_EDUCATION_TYPE",
+    "NAME_FAMILY_STATUS",
+    "NAME_HOUSING_TYPE",
+    "BUREAU_DAYS_CREDIT_COUNT",
+    "BUREAU_ACTIVE_LOANS_COUNT",
+    "BUREAU_AMT_CREDIT_SUM_SUM",
+    "BUREAU_AMT_CREDIT_SUM_DEBT_SUM",
+    "BUREAU_DEBT_CREDIT_RATIO"
+  ],
+  "engineered_features": [
+    {
+      "name": "CREDIT_INCOME_RATIO",
+      "formula": "AMT_CREDIT / AMT_INCOME_TOTAL",
+      "description": "Total loan leverage relative to borrower annual income"
+    },
+    {
+      "name": "ANNUITY_INCOME_RATIO",
+      "formula": "AMT_ANNUITY / AMT_INCOME_TOTAL",
+      "description": "Debt service payment burden as percentage of annual income"
+    },
+    {
+      "name": "PAYMENT_RATE",
+      "formula": "AMT_ANNUITY / AMT_CREDIT",
+      "description": "Amortization rate / repayment speed proxy"
+    },
+    {
+      "name": "EXT_SOURCES_MEAN",
+      "formula": "Mean(EXT_SOURCE_1, EXT_SOURCE_2, EXT_SOURCE_3)",
+      "description": "Composite normalized external credit score"
+    },
+    {
+      "name": "DAYS_EMPLOYED_PERC",
+      "formula": "DAYS_EMPLOYED / DAYS_BIRTH",
+      "description": "Employment tenure as a fraction of applicant age"
+    }
+  ],
+  "numeric_features": [
+    "AMT_INCOME_TOTAL",
+    "AMT_CREDIT",
+    "AMT_ANNUITY",
+    "AMT_GOODS_PRICE",
+    "CREDIT_INCOME_RATIO",
+    "ANNUITY_INCOME_RATIO",
+    "PAYMENT_RATE",
+    "GOODS_CREDIT_RATIO",
+    "INCOME_PER_FAMILY_MEMBER",
+    "AGE_YEARS",
+    "EMPLOYED_YEARS",
+    "DAYS_EMPLOYED_PERC",
+    "EXT_SOURCE_1",
+    "EXT_SOURCE_2",
+    "EXT_SOURCE_3",
+    "EXT_SOURCES_MEAN",
+    "EXT_SOURCES_STD",
+    "BUREAU_DAYS_CREDIT_COUNT",
+    "BUREAU_ACTIVE_LOANS_COUNT",
+    "BUREAU_AMT_CREDIT_SUM_SUM",
+    "BUREAU_AMT_CREDIT_SUM_DEBT_SUM",
+    "BUREAU_DEBT_CREDIT_RATIO"
+  ],
+  "categorical_features": [
+    "NAME_CONTRACT_TYPE",
+    "CODE_GENDER",
+    "FLAG_OWN_CAR",
+    "FLAG_OWN_REALTY",
+    "NAME_EDUCATION_TYPE",
+    "NAME_FAMILY_STATUS",
+    "NAME_HOUSING_TYPE"
+  ],
+  "training_samples_count": 246008,
+  "test_samples_count": 61503,
+  "target_default_rate": 0.0807,
+  "target_imbalance_ratio": 11.38
+}

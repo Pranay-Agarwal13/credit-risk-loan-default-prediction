@@ -1,0 +1,13 @@
+SK_ID_CURR,NAME_CONTRACT_TYPE,CODE_GENDER,FLAG_OWN_CAR,FLAG_OWN_REALTY,AMT_INCOME_TOTAL,AMT_CREDIT,AMT_ANNUITY,AMT_GOODS_PRICE,NAME_EDUCATION_TYPE,NAME_FAMILY_STATUS,NAME_HOUSING_TYPE,DAYS_BIRTH,DAYS_EMPLOYED,EXT_SOURCE_1,EXT_SOURCE_2,EXT_SOURCE_3,BUREAU_ACTIVE_LOANS_COUNT,BUREAU_AMT_CREDIT_SUM_DEBT_SUM
+200001,Cash loans,F,Y,Y,280000,450000,22500,450000,Higher education,Married,House / apartment,-17200,-5200,0.78,0.82,0.85,1,15000
+200002,Cash loans,M,N,Y,180000,500000,27000,480000,Higher education,Married,House / apartment,-15400,-3100,0.65,0.71,0.68,1,45000
+200003,Cash loans,F,N,Y,150000,420000,24000,400000,Secondary / secondary special,Married,House / apartment,-14500,-2600,0.55,0.58,0.60,2,110000
+200004,Cash loans,M,Y,N,135000,490000,29000,450000,Secondary / secondary special,Single / not married,Rented apartment,-12800,-1500,0.48,0.49,0.52,2,160000
+200005,Cash loans,F,N,Y,115000,520000,32000,480000,Secondary / secondary special,Civil marriage,House / apartment,-11900,-1100,0.42,0.41,0.44,3,230000
+200006,Cash loans,M,N,N,95000,580000,36000,520000,Secondary / secondary special,Single / not married,Rented apartment,-10200,-600,0.31,0.34,0.38,3,320000
+200007,Cash loans,M,Y,N,85000,620000,41000,580000,Secondary / secondary special,Single / not married,With parents,-9400,-350,0.25,0.28,0.22,4,440000
+200008,Cash loans,F,N,N,72000,590000,39500,540000,Lower secondary,Single / not married,With parents,-8600,-210,0.18,0.19,0.15,5,470000
+200009,Cash loans,F,Y,Y,320000,600000,31000,600000,Higher education,Married,House / apartment,-18500,-6400,0.82,0.85,0.88,0,0
+200010,Cash loans,M,N,Y,160000,460000,25500,420000,Secondary / secondary special,Married,House / apartment,-13900,-2200,0.59,0.61,0.57,1,85000
+200011,Cash loans,M,Y,N,105000,560000,35000,510000,Secondary / secondary special,Single / not married,Rented apartment,-10800,-850,0.33,0.36,0.31,3,290000
+200012,Cash loans,F,N,N,60000,540000,37000,490000,Lower secondary,Single / not married,With parents,-8100,-120,0.11,0.14,0.08,4,480000

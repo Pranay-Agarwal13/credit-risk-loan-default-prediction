@@ -1,0 +1,25 @@
+dimension,segment,applicant_count,portfolio_share_pct,default_rate_pct,avg_credit_usd,avg_income_usd,avg_dti_ratio,risk_index_vs_baseline
+Contract Type,Cash loans,278232,90.48,8.35,627965,169069,3.71,103.5
+Contract Type,Revolving loans,29279,9.52,5.48,324017,166315,1.95,67.9
+Education,Lower secondary,3816,1.24,10.93,491696,129274,3.80,135.4
+Education,Secondary / secondary special,218391,71.02,8.94,571653,158814,3.60,110.8
+Education,Incomplete higher,10277,3.34,8.48,565920,181536,3.12,105.1
+Education,Higher education,74863,24.35,5.36,689780,208652,3.31,66.4
+Education,Academic degree,164,0.05,1.83,729573,240000,3.04,22.7
+Age Cohort,Under 30,45021,14.64,11.48,485600,159400,3.05,142.3
+Age Cohort,30 to 45,128410,41.76,8.62,624100,181200,3.44,106.8
+Age Cohort,46 to 60,98240,31.95,6.84,631800,165400,3.82,84.8
+Age Cohort,Over 60,35840,11.65,5.12,512400,132800,3.86,63.4
+Gender,Male,105059,34.16,10.14,599500,193300,3.10,125.7
+Gender,Female,202448,65.84,6.99,599200,156000,3.84,86.6
+Leverage Tier,Low (< 2.5x DTI),78410,25.50,5.18,285400,195600,1.46,64.2
+Leverage Tier,Normal (2.5x - 5x DTI),162810,52.94,8.02,598200,168400,3.55,99.4
+Leverage Tier,High Leverage (> 5x DTI),66291,21.56,11.26,984500,138200,7.12,139.5
+External Score,Critical (< 0.35),41290,13.43,18.42,548900,149800,3.66,228.3
+External Score,Moderate (0.35 - 0.60),148920,48.43,8.74,599400,166500,3.60,108.3
+External Score,Prime (> 0.60),117301,38.14,2.81,642100,185200,3.47,34.8
+Active Bureau Loans,0 Active Loans,84520,27.48,6.85,524000,162000,3.23,84.9
+Active Bureau Loans,1-2 Active Loans,142890,46.47,7.84,612000,174000,3.52,97.1
+Active Bureau Loans,3+ Active Loans,80101,26.05,10.88,674000,168000,4.01,134.8
+Bureau Delinquency,No Prior Overdue,284120,92.39,7.62,598000,169000,3.54,94.4
+Bureau Delinquency,Past Due Record,23391,7.61,13.88,615000,164000,3.75,172.0

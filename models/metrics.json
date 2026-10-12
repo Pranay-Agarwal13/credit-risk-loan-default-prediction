@@ -1,0 +1,40 @@
+{
+  "model_name": "Tuned XGBoost Classifier (with scale_pos_weight & Cost-Optimized Threshold)",
+  "selected_threshold": 0.24,
+  "test_set_size": 61503,
+  "test_defaulters_count": 4963,
+  "test_repaid_count": 56540,
+  "roc_auc": 0.7782,
+  "pr_auc": 0.2814,
+  "precision": 0.2645,
+  "recall": 0.7418,
+  "f1_score": 0.3898,
+  "specificity": 0.8194,
+  "confusion_matrix": [
+    [46328, 10212],
+    [1281, 3682]
+  ],
+  "confusion_matrix_breakdown": {
+    "true_negatives": 46328,
+    "false_positives": 10212,
+    "false_negatives": 1281,
+    "true_positives": 3682
+  },
+  "metrics_at_default_threshold_0_50": {
+    "threshold": 0.50,
+    "precision": 0.3852,
+    "recall": 0.2842,
+    "f1_score": 0.3271,
+    "confusion_matrix": [
+      [54286, 2254],
+      [3552, 1411]
+    ]
+  },
+  "business_impact": {
+    "defaults_prevented_at_0_24": 3682,
+    "defaults_prevented_at_0_50": 1411,
+    "additional_chargeoffs_avoided": 2271,
+    "estimated_gross_loss_reduction_usd": 22710000.0,
+    "net_economic_benefit_vs_standard_threshold_usd": 13180000.0
+  }
+}

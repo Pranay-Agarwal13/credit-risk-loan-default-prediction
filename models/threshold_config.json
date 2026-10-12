@@ -1,0 +1,22 @@
+{
+  "selected_threshold": 0.24,
+  "default_threshold": 0.50,
+  "cost_assumptions": {
+    "false_negative_cost": 10000.0,
+    "false_positive_cost": 1200.0,
+    "true_negative_profit": 3500.0
+  },
+  "risk_tier_cutoffs": {
+    "low": 0.10,
+    "medium": 0.25,
+    "high": 0.50,
+    "critical": 1.00
+  },
+  "actions_by_tier": {
+    "Low": "Instant Approval - Prime Interest Rates",
+    "Medium": "Approved with Standard Automated Verification Check",
+    "High": "Escalate to Senior Underwriter for Manual Committee Review",
+    "Critical": "Adverse Decision / Automated Decline or Secured Exception Only"
+  },
+  "tradeoff_explanation": "In consumer credit, a default (False Negative) costs ~$10,000 in unrecoverable loan principal, whereas an unnecessary manual review or rejection (False Positive) costs ~$1,200 in underwriting overhead and lost net interest margin. Lowering the operational decision threshold from 0.50 to 0.24 increases defaulter recall from 28.4% to 74.2%, reducing expected portfolio credit loss by $1.84M per 10,000 applicants."
+}
